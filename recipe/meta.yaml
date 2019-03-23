@@ -1,5 +1,5 @@
 {% set name = "PyAthena" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b38b529352a81e712c7944f3697c0ce6bc43af9cf86db091dc748ba41a9ee1b1
+  sha256: 4ae53ce27ee14187b59bf4e4908c147b72337b21e8aa010ee9330aec75cc18b8
 
 build:
   number: 0
