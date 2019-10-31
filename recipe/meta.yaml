@@ -29,7 +29,6 @@ requirements:
 test:
   imports:
     - pyathena
-    - tests
   requires:
     - pytest >=3.5
     - pytest-cov
