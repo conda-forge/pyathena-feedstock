@@ -2,7 +2,7 @@
 
 package:
   name: pyathena
-  version: "{{ version }}"
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/P/PyAthena/PyAthena-{{ version }}.tar.gz
