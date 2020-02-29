@@ -1,4 +1,4 @@
-{% set version = "1.10.1" %}
+{% set version = "1.10.2" %}
 
 package:
   name: pyathena
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/P/PyAthena/PyAthena-{{ version }}.tar.gz
-  sha256: f4118c810c6b71a793bd81cf44773cc7a13df4ab777c6ce2a7b06ca8a089a761
+  sha256: 9ed6c4c1ac0ce76da1e5f8945f1cb1521d60d903433f1d39695dc2fb38318a68
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
