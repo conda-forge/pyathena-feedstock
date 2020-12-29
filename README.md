@@ -5,11 +5,11 @@ Home: https://github.com/laughingman7743/PyAthena/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyathena-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python DB API 2.0 (PEP 249) compliant client for Amazon Athena
 
-
+Development: https://github.com/laughingman7743/PyAthena/
 
 Current build status
 ====================
