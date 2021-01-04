@@ -1,4 +1,4 @@
-{% set version = "1.11.2" %}
+{% set version = "2.1.0" %}
 
 package:
   name: pyathena
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/P/PyAthena/PyAthena-{{ version }}.tar.gz
-  sha256: 2b4308c983c7fb27e4990932477ad3df78b7144890b74c887116b2d67c212ca6
+  sha256: c98787078ef40ee901f82cf35472d32cd93da9ad734e5af71df7ec89e3c7f170
 
 build:
   number: 0
@@ -15,14 +15,15 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
+    - poetry
   run:
-    - python
+    - python >=3.6
     - setuptools
     - boto3 >=1.4.4
     - botocore >=1.5.52
-    - future
+    - sqlalchemy
     - tenacity >=4.1.0
 
 test:
