@@ -1,4 +1,4 @@
-{% set version = "2.9.1" %}
+{% set version = "2.9.2" %}
 
 package:
   name: pyathena
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/P/PyAthena/PyAthena-{{ version }}.tar.gz
-  sha256: 6f525d26149ee1ecca37869f65ec7073f613ece33d9c85c72bb71aea76111a76
+  sha256: e82f7463e9a96c93026764898cafefdee9574430e20ad7e5af8c8efae1294c0c
 
 build:
   number: 0
