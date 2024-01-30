@@ -31,6 +31,14 @@ requirements:
     - pyarrow >=7.0.0
     - fastparquet >=0.4.0
 
+test:
+  imports:
+    - pyathena
+  commands:
+    - pip check
+  requires:
+    - pip
+
 about:
   home: https://github.com/laughingman7743/PyAthena/
   license: MIT
