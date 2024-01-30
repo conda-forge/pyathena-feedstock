@@ -147,4 +147,5 @@ Feedstock Maintainers
 
 * [@JorgeGarciaIrazabal](https://github.com/JorgeGarciaIrazabal/)
 * [@mariusvniekerk](https://github.com/mariusvniekerk/)
+* [@xylar](https://github.com/xylar/)
 
