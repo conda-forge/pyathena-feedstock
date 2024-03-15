@@ -1,5 +1,5 @@
 {% set name = "pyathena" %}
-{% set version = "3.3.0" %}
+{% set version = "3.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyathena-{{ version }}.tar.gz
-  sha256: dd2e6241e99b85a43531cc40272644806d33eb44b95211161afec1b496e43d37
+  sha256: bfca93570e9b299985d9d2df1e0be41dd6f5fe1ae254c0c59fca81356194ef20
 
 build:
   noarch: python
