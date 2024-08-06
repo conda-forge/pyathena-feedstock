@@ -20,12 +20,12 @@ requirements:
     - hatchling
     - pip
   run:
-    - python-dateutil
     - python >=3.8.1
     - boto3 >=1.26.4
     - botocore >=1.29.4
     - tenacity >=4.1.0
     - fsspec
+    - python-dateutil
 
 test:
   imports:
