@@ -1,13 +1,13 @@
 {% set name = "pyathena" %}
-{% set version = "3.9.0" %}
+{% set version = "3.10.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyathena-{{ version }}.tar.gz
-  sha256: 4b11d49df03255c556e11f63d0e346cc25ea19675a7ac78ffd0537bcd84cb48f
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyathena-{{ version }}.tar.gz
+  sha256: a5a1539a13c6af6ab3d422b8db9b5b48711b7b1725fa5aa68282fa45999f0b6a
 
 build:
   noarch: python
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8.1
+    - python {{ python_min }}
     - hatchling
     - pip
   run:
-    - python >=3.8.1
+    - python >={{ python_min }}
     - boto3 >=1.26.4
     - botocore >=1.29.4
     - tenacity >=4.1.0
@@ -33,6 +33,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
