@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8.1
+    - python {{ python_min }}
     - hatchling
     - pip
   run:
-    - python >=3.8.1
+    - python >={{ python_min }}
     - boto3 >=1.26.4
     - botocore >=1.29.4
     - tenacity >=4.1.0
@@ -33,6 +33,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
