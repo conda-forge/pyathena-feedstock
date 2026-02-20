@@ -1,6 +1,6 @@
 context:
   name: pyathena
-  version: "3.27.2"
+  version: "3.28.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyathena-${{ version }}.tar.gz
-  sha256: 0994bb3600aeace81435ad75171a92911c5c042e2d57ee7420541a59954f663e
+  sha256: 73d6f6e9cbe565edd650e91e90c492f7b97c7b50d7f2e2c4de8ac8e2dcbe5b05
 
 build:
   noarch: python
@@ -42,7 +42,7 @@ about:
   license_file: LICENSE
   summary: Python DB API 2.0 (PEP 249) compliant client for Amazon Athena
   repository: https://github.com/pyathena-dev/PyAthena
-  documentation: https://pyathena-dev.github.io/PyAthena/
+  documentation: https://pyathena.dev/
 
 extra:
   recipe-maintainers:
