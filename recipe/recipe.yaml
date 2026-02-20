@@ -42,7 +42,7 @@ about:
   license_file: LICENSE
   summary: Python DB API 2.0 (PEP 249) compliant client for Amazon Athena
   repository: https://github.com/pyathena-dev/PyAthena
-  documentation: https://pyathena-dev.github.io/PyAthena/
+  documentation: https://pyathena.dev/
 
 extra:
   recipe-maintainers:
