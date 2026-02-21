@@ -11,7 +11,7 @@ Summary: Python DB API 2.0 (PEP 249) compliant client for Amazon Athena
 
 Development: https://github.com/pyathena-dev/PyAthena
 
-Documentation: https://pyathena-dev.github.io/PyAthena/
+Documentation: https://pyathena.dev/
 
 Current build status
 ====================
