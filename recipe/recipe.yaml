@@ -1,6 +1,6 @@
 context:
   name: pyathena
-  version: "3.29.0"
+  version: "3.29.2"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyathena-${{ version }}.tar.gz
-  sha256: 5bd4f127710c4c936335a5d7965720dad10e63a9c0a80abe61f803a067c37810
+  sha256: 881c93356425eacb4c43c5467118b006e63fb8f72d7734f5b6a21afb4ff43a2e
 
 build:
   noarch: python
