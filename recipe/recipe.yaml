@@ -1,6 +1,6 @@
 context:
   name: pyathena
-  version: "3.32.0"
+  version: 3.33.0
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyathena-${{ version }}.tar.gz
-  sha256: 3210640a549013f437dff4a8b83f8f1d790167fe9e74a6dff9e6700147804924
+  sha256: a1c796e06c47e56545a72854b7066c988ebaa04bb723f0536246c5fbe0afcb47
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - boto3 >=1.38.2
+    - boto3 >=1.41.2
     - botocore >=1.41.2
     - tenacity >=4.1.0
     - fsspec
