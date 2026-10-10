@@ -1,6 +1,6 @@
 context:
   name: pyathena
-  version: "3.38.0"
+  version: 3.39.0
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pyathena-${{ version }}.tar.gz
-  sha256: 55d81a4cbc3229bad3f2e3e30a243616a8626c994f4c3a864f61f7930f997589
+  sha256: e49d365004a2176e09fbd519741654b1c555abea2044019a3961abfa83c17ba7
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
     - python >=${{ python_min }}
     - boto3 >=1.41.2
     - botocore >=1.41.2
-    - tenacity >=4.1.0
+    - tenacity >=8.0.1
     - fsspec
     - python-dateutil
 tests:
@@ -35,7 +35,7 @@ tests:
       pip_check: true
       python_version:
         - ${{ python_min }}.*
-        - "*"
+        - '*'
 
 about:
   homepage: https://github.com/pyathena-dev/PyAthena
