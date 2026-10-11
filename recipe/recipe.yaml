@@ -19,7 +19,7 @@ requirements:
   host:
     - python ${{ python_min }}.*
     - pip
-    - hatchling
+    - hatchling >=1.27
     - hatch-vcs
   run:
     - python >=${{ python_min }}
@@ -27,6 +27,7 @@ requirements:
     - botocore >=1.43.31
     - tenacity >=8.0.1
     - fsspec >=2026.9.0
+    - python-tzdata
     - tzdata
 tests:
   - python:
