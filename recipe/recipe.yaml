@@ -28,7 +28,6 @@ requirements:
     - tenacity >=8.0.1
     - fsspec >=2026.9.0
     - python-tzdata
-    - tzdata
 tests:
   - python:
       imports:
