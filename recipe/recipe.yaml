@@ -27,7 +27,7 @@ requirements:
     - botocore >=1.43.31
     - tenacity >=8.0.1
     - fsspec >=2026.9.0
-    - python-tzdata
+    - python-tzdata >=2024.2
 tests:
   - python:
       imports:
